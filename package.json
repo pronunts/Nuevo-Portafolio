@@ -1,0 +1,20 @@
+{
+  "name": "nuevoportafolio",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "keywords": [],
+  "author": "José Rodríguez <joserodriguezrafa@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  },
+  "dependencies": {
+    "scrollreveal": "^4.0.9",
+    "typed.js": "^2.0.12"
+  }
+}
