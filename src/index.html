@@ -1,110 +1,176 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+    <link href="/dist/output.css" rel="stylesheet" />
 
-<head>
+    <script src="scrollreveal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie-edge">
-  <link href="/dist/output.css" rel="stylesheet" />
+    <title>My Blog</title>
+  </head>
 
-  
-  <script src="scrollreveal.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-
-
-  <title>My Blog</title>
-</head>
-
-<body>
-
-
-  <header class=" max-w-full flex  flex-col min-h-screen  bg-header-image bg-cover bg-center bg-no-repeat ">
-    <div class="">
-      <nav
-        class="w-full h-24 font-['inter']  flex justify-evenly items-center md:justify-end  text-fuchsia-600 shadow-lg  text-lg bg-[#101742] rounded-b-md "
-        id="navbar">
-        <button class="w-36 h-16 border-1 rounded-md  p-4  text-base"><a href="#about-me">About me</a></button>
-        <button class="w-36  h-16  border-1 rounded-md  p-4  text-base"><a href="#projects">Projects</a></button>
-        <button class="w-36 h-16   border-1 rounded-md  p-4 text-base"><a href="#contact">Contact</a></button>
-      </nav>
-
-    </div>
-
-
-    <div
-      class="w-11/12< min-h-[490px] mt-8 mb-14 flex flex-col justify-center items-center md:flex-row-reverse md:justify-end min max-w-5xl mx-auto ">
-      
-      <div class="w-2/4" >
-        <img class="w-4/5 mx-auto max-w-[280px]   rounded-full " src="../assets/jjjjj.jpg" alt="">
-        <div class="w-4/5 mx-auto mt-14 flex justify-evenly">
-          <a class="" href="#"><ion-icon class="w-16 h-16 text-white" name="logo-facebook"></ion-icon></a>
-          <a class="" href="#"><ion-icon class="w-16 h-16 text-white" name="logo-linkedin"></ion-icon></a>
-          <a class=""  href="#"><ion-icon class="w-16 h-16 text-white" name="logo-github"></ion-icon></a>
-
-        </div>
-      </div>
-      
-      <div class="w-[95%] mx-auto md:w-1/2 ">
-
-        <div  id="typed-strings">
-          <h2 class="w-full " >Saludos, mi nombre es <strong>Jose Rodriguez</strong></h2>
-        </div>
-        <span class="w-full md:text-6xl mx-auto self-center mt-12 h-16 text-[#0b89d3]  font-extrabold font-['Inter'] text-4xl   text-center " id="typed"></span>
-
-        <p class="mt-12 text-white  w-full mx-auto text-justify text-lg ">Lorem ipsum dolor sit amet, consectetur
-          adipisicing elit. Modi,
-          ipsam
-          eaque nulla eum eligeur adipisicing elit. Modi, ipsam eaque nulla eum eligeur adipisicing elit. Modi, ipsam
-          eaque nulla eum eligendi sunt voluptatum, quasi similique, possimus obcaecati voluptatibus laboriosam vero
-          dolore </p>
-
+  <body>
+    <header
+      class="max-w-full flex flex-col min-h-screen bg-header-image bg-cover bg-center bg-no-repeat"
+    >
+      <div class="">
+        <nav
+          class="w-full h-24 font-['inter'] flex justify-evenly items-center md:justify-end text-fuchsia-600 shadow-lg text-lg bg-[#101742] rounded-b-md"
+          id="navbar"
+        >
+          <button class="w-36 h-16 border-1 rounded-md p-4 text-base">
+            <a href="#about-me">About me</a>
+          </button>
+          <button class="w-36 h-16 border-1 rounded-md p-4 text-base">
+            <a href="#projects">Projects</a>
+          </button>
+          <button class="w-36 h-16 border-1 rounded-md p-4 text-base">
+            <a href="#contact">Contact</a>
+          </button>
+        </nav>
       </div>
 
+      <div
+        class="w-11/12< min-h-[490px] mt-8 mb-14 flex flex-col justify-center items-center md:flex-row-reverse md:justify-end min max-w-5xl mx-auto"
+      >
+        <div class="w-2/4">
+          <img
+            class="w-4/5 mx-auto max-w-[280px] rounded-full"
+            src="../assets/jjjjj.jpg"
+            alt=""
+          />
+          <div class="w-4/5 mx-auto mt-14 flex justify-evenly">
+            <a class="" href="#"
+              ><ion-icon
+                class="w-16 h-16 text-white"
+                name="logo-facebook"
+              ></ion-icon
+            ></a>
+            <a class="" href="#"
+              ><ion-icon
+                class="w-16 h-16 text-white"
+                name="logo-linkedin"
+              ></ion-icon
+            ></a>
+            <a class="" href="#"
+              ><ion-icon
+                class="w-16 h-16 text-white"
+                name="logo-github"
+              ></ion-icon
+            ></a>
+          </div>
+        </div>
+
+        <div class="w-[95%] mx-auto md:w-1/2">
+          <div id="typed-strings">
+            <h2 class="w-full">
+              Saludos, mi nombre es <strong>Jose Rodriguez</strong>
+            </h2>
+          </div>
+          <span
+            class="w-full md:text-6xl mx-auto self-center mt-12 h-16 text-[#0b89d3] font-extrabold font-['Inter'] text-4xl text-center"
+            id="typed"
+          ></span>
+
+          <p class="mt-12 text-white w-full mx-auto text-justify text-lg">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi,
+            ipsam eaque nulla eum eligeur adipisicing elit. Modi, ipsam eaque
+            nulla eum eligeur adipisicing elit. Modi, ipsam eaque nulla eum
+            eligendi sunt voluptatum, quasi similique, possimus obcaecati
+            voluptatibus laboriosam vero dolore
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <main class="">
+      <div
+        class="transition delay-150 duration-300 ease-in-out w-full h-72 bg-slate-800 p-4 text-white"
+        id="about-me"
+      >
+        <h2 class="text-2xl">Hello World #</h2>
+        <p class="mt-6">
+          Estoy desarrollando una app muy Lorem ipsum dolor sit, amet
+          consectetur adipisicing elit. Mollitia qui nulla aperiam asperiores
+          necessitatibus? Tenetur amet mollitia reprehenderit odio
+        </p>
+      </div>
+      <div
+        class="hidden w-full h-screen bg-slate-800 p-4 text-white transition-all duration-1000s"
+        id="projects"
+      >
+        holaaaaaa
+      </div>
+      <div
+        class="hidden w-full h-screen bg-slate-800 p-4 text-white"
+        id="contact"
+      >
+        holaaaaaa
+      </div>
+    </main>
+    <p class="element"></p>
+    <div class="flex flex-wrap justify-center gap-6 mt-24 bg-white px-16">
+      <img
+        class="headline w-80"
+        src="../assets/img/frank-van-hulst--G8UCWNNFxA-unsplash.jpg"
+        alt="xd"
+      />
+      <img
+        class="headline w-80"
+        src="../assets/img/frank-van-hulst--G8UCWNNFxA-unsplash.jpg"
+        alt="xd"
+      />
+      <img
+        class="headline w-80"
+        src="../assets/img/frank-van-hulst--G8UCWNNFxA-unsplash.jpg"
+        alt="xd"
+      />
+      <img
+        class="headline w-80"
+        src="../assets/img/frank-van-hulst--G8UCWNNFxA-unsplash.jpg"
+        alt="xd"
+      />
+      <img
+        class="headline w-80"
+        src="../assets/img/frank-van-hulst--G8UCWNNFxA-unsplash.jpg"
+        alt="xd"
+      />
+      <img
+        class="headline w-80"
+        src="../assets/img/frank-van-hulst--G8UCWNNFxA-unsplash.jpg"
+        alt="xd"
+      />
+      <img
+        class="headline w-80"
+        src="../assets/img/frank-van-hulst--G8UCWNNFxA-unsplash.jpg"
+        alt="xd"
+      />
+      <img
+        class="headline w-80"
+        src="../assets/img/frank-van-hulst--G8UCWNNFxA-unsplash.jpg"
+        alt="xd"
+      />
     </div>
-  </header>
-
-
-  <main class="">
-    <!--  <div class=" transition delay-150 duration-300 ease-in-out   w-full h-72   bg-slate-800 p-4 text-white  " id="about-me">
-      <h2 class="text-2xl">Hello World #</h2>
-      <p class="mt-6">Estoy desarrollando una app muy Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia
-        qui nulla aperiam asperiores necessitatibus? Tenetur amet mollitia reprehenderit odio </p>
-    </div> -->
-    <div class="hidden w-full h-screen  bg-slate-800 p-4 text-white transition-all duration-1000s  " id="projects">
-      holaaaaaa </div>
-    <div class="hidden w-full h-screen  bg-slate-800 p-4 text-white  " id="contact">holaaaaaa </div>
-  </main>
-<p class="element"></p>
-  <div class="flex flex-wrap justify-center gap-6 mt-24 bg-white px-16">
-    <img class="headline w-80" src="../assets/img/frank-van-hulst--G8UCWNNFxA-unsplash.jpg" alt="xd">
-    <img class="headline w-80" src="../assets/img/frank-van-hulst--G8UCWNNFxA-unsplash.jpg" alt="xd">
-    <img class="headline w-80" src="../assets/img/frank-van-hulst--G8UCWNNFxA-unsplash.jpg" alt="xd">
-    <img class="headline w-80" src="../assets/img/frank-van-hulst--G8UCWNNFxA-unsplash.jpg" alt="xd">
-    <img class="headline w-80 " src="../assets/img/frank-van-hulst--G8UCWNNFxA-unsplash.jpg" alt="xd">
-    <img class="headline w-80" src="../assets/img/frank-van-hulst--G8UCWNNFxA-unsplash.jpg" alt="xd">
-    <img class="headline w-80" src="../assets/img/frank-van-hulst--G8UCWNNFxA-unsplash.jpg" alt="xd">
-    <img class="headline w-80" src="../assets/img/frank-van-hulst--G8UCWNNFxA-unsplash.jpg" alt="xd">
-
-
-  </div>
-  <script src="navigation.js"></script>
-  <script>
-    ScrollReveal().reveal('.headline', { delay: 200, });
-  </script>
-</script>
-<script>
-
-  
-  var typed = new Typed('#typed', {
-    stringsElement: '#typed-strings',
-    typeSpeed:40,
-  });
-</script>
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-</body>
-
-
-
+    <script src="navigation.js"></script>
+    <script>
+      ScrollReveal().reveal(".headline", { delay: 0 });
+    </script>
+    <script>
+      var typed = new Typed("#typed", {
+        stringsElement: "#typed-strings",
+        typeSpeed: 60,
+      });
+    </script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
